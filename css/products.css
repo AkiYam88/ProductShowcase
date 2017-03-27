@@ -1,0 +1,175 @@
+.products-hero-content {
+    position: relative;
+    /* background-color: gray; */
+    width: 100%;
+    min-height: 600px;
+    background-image: url(../images/K9C-Prods-Hero-Blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 60px;
+    color: #ffffff;
+}
+
+.products-hero-content .products-title {
+    position: relative;
+    width: 50%;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 200;
+    color: #1D5E98;
+}
+
+.products-hero-content .products-copy {
+    position: relative;
+    width: 50%;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 200%;
+    color: #333333;
+}
+
+.breadcrumbs {
+    font-size: 0.8rem;
+    padding: 10px 50px 0;
+}
+
+.ind-product-overview {
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    padding: 0;
+    color: #ffffff;
+    border-top: 0.5px solid #1D5E98;
+}
+
+.ind-product-overview .description-text {
+    background-color: #ffffff;
+    padding: 0 10px 0 50px;
+}
+
+.ind-product-overview .product-name {
+    position: relative;
+    text-align: left;
+    color: #1D5E98;
+    text-transform: capitalize;
+    font-size: 2rem;   
+    font-weight: 300;
+}
+
+.details-title {
+    color: #723B04;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+ul.bullets {
+    list-style-type: inherit;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #1D5E98;
+    font-weight: 400;
+}
+
+.details-contents {
+    color: #333333;
+    line-height: 200%;
+    font-weight: 200;
+}
+
+
+/* button*/
+.btn-cart {
+    border-radius: 10px;
+	color: #ffffff;
+	font-weight: 400;
+	text-decoration: none;
+	padding:5px 20px;
+	background: #2ECC71;
+	border: 2px solid #2ECC71;
+	box-shadow: 0px 2px 0px 0px #22894E;
+	}
+
+.ind-product-overview .description-photos {
+    background-color: #ffffff;
+    padding: 30px 0 30px 10px;
+}
+
+.ind-product-overview .thumbnails {
+    color: #723B04;
+}
+
+.customer-reviews {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    padding: 0;
+    color: #ffffff;
+    border-top: 0.5px solid #1D5E98;
+}
+
+.fabric-panel-square {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 10px 0;
+
+ }
+
+.fabric-panel-square img {
+    display: block;
+    margin 0 auto;
+    width: 100%;
+    position: center;
+}
+
+.fabric-panel-square .viewmore {
+    color: #723B04;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 95px 0;
+}
+
+.viewmore-products {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.viewmore-products .section-more {
+    position: relative;
+    text-align: center;
+    color: #723B04;
+    text-transform: uppercase;
+    font-size: 2.25rem;   
+    font-weight: 200;
+}
+
+.footer-content-2 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1D5E98;
+    padding: 20px 100px;
+    min-height: 120px;
+}
+
+.footer-content-2 .title-text {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.footer-content-2 .footer-column i{
+	color:#ffffff;
+	font-size: 3rem;
+	margin: 0 0.5rem 0.5rem;
+	vertical-align: middle;
+	}
