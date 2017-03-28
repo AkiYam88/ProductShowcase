@@ -1,0 +1,178 @@
+/* Individual Product Page Main Section */
+.ind-product-overview {
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    padding: 0;
+    color: #ffffff;
+    border-top: 0.5px solid #1D5E98;
+}
+
+/* Breadcrumbs */
+ul.breadcrumbs {
+    padding: 10px 50px 0;
+    list-style: none;
+    font-size: 0.8rem;
+    color: #333333;
+    font-weight: bold;
+}
+ul.breadcrumbs li {display: inline;}
+ul.breadcrumbs li+li:before {
+    padding: 8px;
+    color: #333333;
+    content: ">\00a0";
+}
+ul.breadcrumb li a {
+    color: #333333;
+    text-decoration: none;
+}
+ul.breadcrumbs li a:hover {
+    color: #3CC84A;
+    cursor: pointer;
+}
+
+/* Individual Product Text Section - Left */
+.ind-product-overview .description-text {
+    background-color: #ffffff;
+    padding: 0 10px 0 50px;
+}
+
+.ind-product-overview .product-name {
+    position: relative;
+    text-align: left;
+    color: #1D5E98;
+    text-transform: capitalize;
+    font-size: 2rem;   
+    font-weight: 300;
+}
+
+.details-title {
+    color: #723B04;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+ul.bullets {
+    list-style-type: inherit;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #1D5E98;
+    font-weight: 400;
+    padding: 3rem 0 0 0;
+}
+
+.details-contents {
+    color: #333333;
+    line-height: 200%;
+    font-weight: 200;
+}
+
+
+/* Add to Cart Button */
+.btn-cart {
+    border-radius: 10px;
+	color: #ffffff;
+	font-weight: 400;
+	text-decoration: none;
+	padding:5px 20px;
+	background: #2ECC71;
+	border: 2px solid #2ECC71;
+	box-shadow: 0px 2px 0px 0px #22894E;
+	}
+
+/* Individual Product Photo Section - Right */
+.ind-product-overview .description-photos {
+    background-color: #ffffff;
+    padding: 30px 0 30px 10px;
+}
+
+.ind-product-overview .thumbnails {
+    color: #723B04;
+}
+
+/* Customer Reviews */
+.customer-reviews {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    padding: 0 10px 0 50px;
+    color: #ffffff;
+    border-top: 0.5px solid #1D5E98;
+}
+
+.customer-reviews .section-title {
+    position: relative;
+    text-align: left;
+    color: #1D5E98;
+    text-transform: capitalize;
+    font-size: 2rem;   
+    font-weight: 200;
+}
+
+.customer-reviews .review-title {
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+/* Write a Review button */
+.review-button {
+    padding: 20px 0;
+}
+.btn-review {
+    border-radius: 10px;
+	color: #ffffff;
+	font-weight: 200;
+    font-size: 0.75rem;
+	text-decoration: none;
+	padding:5px 20px;
+	background: #2ECC71;
+	border: 2px solid #2ECC71;
+	box-shadow: 0px 2px 0px 0px #22894E;
+	}

@@ -10,11 +10,13 @@
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/ind-product.css">      
         <link rel="stylesheet" href="css/animate.css">
     </head>
     
     <body>
-        <!-- Navigation Bar -->
+        
+<!-- Navigation Bar -->
         <nav class="navbar">
             <a href="index.html">
                 <img src="images/K9C_Logo.png" alt="K-9 Cooler logo" class="logo">
@@ -37,9 +39,13 @@
             </div>
             </nav>
         
-        <!-- Product Detail Section -->
+<!-- Product Detail Section -->
         <section class="ind-product-overview">
-            <p class="breadcrumbs column full">Home > Products > "Good Dog!" Print</p>
+            <ul class="breadcrumbs column full">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li>"Good Dog!" Print</li>
+            </ul>
             
             <div class="description-text column half">
                 <p class="product-name">"Good Dob!" Print</p>
@@ -73,12 +79,55 @@
             </div>            
         </section>
                         
-        <!-- View More Section -->
+<!-- Customer Reviews Section -->
         <section class="customer-reviews">
-            <h3 class="section-more">view more <br>                <a href="#.html"><i class="fa fa-angle-down "></i></a></h3>
+            <h3 class="section-title">Customer Reviews</h3>
+            
+        <div class="column third">
+            <p class="review-title">It Works!</p>
+        </div>
+            
+        <div class="two-thirds">
+            <fieldset class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                
+            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    
+            <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+            
+            <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    
+            <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    
+            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    
+            <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    
+            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    
+            <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    
+            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+            </fieldset>
+            
+        </div>
+            
+        <div class="column full">
+             
+            <p>By Abc</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>           
+        </div>   
+        
+        <div class="review-button column full">
+        <btn class="btn-review">
+            Write a Customer Review
+        </btn>
+        </div>
+
+
         </section>
         
-        <!-- Footer Section -->
+<!-- Footer Section -->
         <footer class="footer-content-2">
             
             <div class="footer-column column third">

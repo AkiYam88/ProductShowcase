@@ -1,3 +1,4 @@
+/* Products Page Hero Content */
 .products-hero-content {
     position: relative;
     /* background-color: gray; */
@@ -30,88 +31,7 @@
     color: #333333;
 }
 
-.breadcrumbs {
-    font-size: 0.8rem;
-    padding: 10px 50px 0;
-}
-
-.ind-product-overview {
-    position: relative;
-    width: 100%;
-    min-height: 800px;
-    padding: 0;
-    color: #ffffff;
-    border-top: 0.5px solid #1D5E98;
-}
-
-.ind-product-overview .description-text {
-    background-color: #ffffff;
-    padding: 0 10px 0 50px;
-}
-
-.ind-product-overview .product-name {
-    position: relative;
-    text-align: left;
-    color: #1D5E98;
-    text-transform: capitalize;
-    font-size: 2rem;   
-    font-weight: 300;
-}
-
-.details-title {
-    color: #723B04;
-    text-transform: capitalize;
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-
-ul.bullets {
-    list-style-type: inherit;
-}
-
-.underline {
-    text-decoration: underline;
-    color: #1D5E98;
-    font-weight: 400;
-}
-
-.details-contents {
-    color: #333333;
-    line-height: 200%;
-    font-weight: 200;
-}
-
-
-/* button*/
-.btn-cart {
-    border-radius: 10px;
-	color: #ffffff;
-	font-weight: 400;
-	text-decoration: none;
-	padding:5px 20px;
-	background: #2ECC71;
-	border: 2px solid #2ECC71;
-	box-shadow: 0px 2px 0px 0px #22894E;
-	}
-
-.ind-product-overview .description-photos {
-    background-color: #ffffff;
-    padding: 30px 0 30px 10px;
-}
-
-.ind-product-overview .thumbnails {
-    color: #723B04;
-}
-
-.customer-reviews {
-    position: relative;
-    width: 100%;
-    min-height: 400px;
-    padding: 0;
-    color: #ffffff;
-    border-top: 0.5px solid #1D5E98;
-}
-
+/* Fabric Panels in Products Page*/
 .fabric-panel-square {
     position: relative;
     margin: 0 auto;
@@ -151,6 +71,7 @@ ul.bullets {
     font-weight: 200;
 }
 
+/* Footer - non-landing-page */
 .footer-content-2 {
     position: relative;
     width: 100%;
