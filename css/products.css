@@ -1,34 +1,34 @@
 /* Products Page Hero Content */
-.products-hero-content {
+.product-hero-frame {
     position: relative;
-    /* background-color: gray; */
-    width: 100%;
-    min-height: 600px;
-    background-image: url(../images/K9C-Prods-Hero-Blue.jpg);
+    height: auto;
+    background-image: linear-gradient(135deg, #cde6fe 0%, #ffffff 100%);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center right;
     background-size: cover;
-    padding: 20px 60px;
-    color: #ffffff;
+    overflow: auto;
+    padding-top:20px;
+    z-index: auto;
 }
 
-.products-hero-content .products-title {
+.prod-hero-text{
     position: relative;
-    width: 50%;
-    text-align: left;
+    text-align: left;  
+    font-weight: 200;
+    padding-top: 2%;
+}
+
+.products-title {
     font-size: 3rem;
-    font-weight: 200;
     color: #1D5E98;
+    margin: 2% 0 0 10%;
 }
 
-.products-hero-content .products-copy {
-    position: relative;
-    width: 50%;
-    text-align: left;
+.products-copy {
     font-size: 2rem;
-    font-weight: 200;
-    line-height: 200%;
+    line-height: 150%;
     color: #333333;
+    margin: 0 0 0 10%;
 }
 
 /* Fabric Panels in Products Page*/
@@ -74,11 +74,11 @@
 /* Footer - non-landing-page */
 .footer-content-2 {
     position: relative;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     background-color: #1D5E98;
-    padding: 20px 100px;
-    min-height: 120px;
+    padding: 20px 10%;
+    min-height: 100px;
 }
 
 .footer-content-2 .title-text {

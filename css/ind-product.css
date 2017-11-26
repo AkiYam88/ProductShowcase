@@ -1,11 +1,27 @@
 /* Individual Product Page Main Section */
+
+.body-mg{
+    margin: 0;.
+}
+
 .ind-product-overview {
     position: relative;
-    width: 100%;
-    min-height: 800px;
+    width: 100vw;
+    height: auto;
     padding: 0;
     color: #ffffff;
     border-top: 0.5px solid #1D5E98;
+    overflow: auto;
+}
+
+.ind-product-main-left {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    color: #ffffff;
+    border-top: 0.5px solid #1D5E98;
+    overflow: auto;
 }
 
 /* Breadcrumbs */
@@ -32,9 +48,18 @@ ul.breadcrumbs li a:hover {
 }
 
 /* Individual Product Text Section - Left */
-.ind-product-overview .description-text {
+
+.product-details {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    padding: 0 5% 5% 5%;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.description-text {
     background-color: #ffffff;
-    padding: 0 10px 0 50px;
 }
 
 .ind-product-overview .product-name {
@@ -51,6 +76,7 @@ ul.breadcrumbs li a:hover {
     text-transform: capitalize;
     font-size: 1.25rem;
     font-weight: 300;
+    margin-bottom: 0;
 }
 
 ul.bullets {
@@ -61,49 +87,124 @@ ul.bullets {
     text-decoration: underline;
     color: #1D5E98;
     font-weight: 400;
-    padding: 3rem 0 0 0;
+    padding: 0;
 }
 
 .details-contents {
     color: #333333;
     line-height: 200%;
     font-weight: 200;
+    margin-top: 0;
 }
 
+.review{
+    padding: 0;
+}
 
-/* Add to Cart Button */
-.btn-cart {
-    border-radius: 10px;
-	color: #ffffff;
-	font-weight: 400;
-	text-decoration: none;
-	padding:5px 20px;
-	background: #2ECC71;
-	border: 2px solid #2ECC71;
-	box-shadow: 0px 2px 0px 0px #22894E;
-	}
+.star{
+    margin-top: 0;
+}
+
+.left-align{
+    padding-left: 0;
+}
+
+.std-txt{
+    color: #333333;
+}
+
+.qty-field{
+    margin: 10px 0;
+}
+
+.thumb-item {
+    list-style:none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+}
+
+.slideone{
+    top: 0;
+}
+
+.slidetwo{
+    margin: 0;
+    top: 0;
+}
+
+.slider-container{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+/*スライダー*/
+/*左右の矢印の色を変える*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+/*左右の矢印の位置を変える*/
+.slick-next {
+    right: 20px;
+    z-index: 99;
+}
+.slick-prev {
+     left: 15px;
+    z-index: 100;
+}
+/*スライド数のドットの色を変える*/
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+    color: #fff;
+}
+/*スライド画像の横幅可変*/
+img {
+    max-width: 100%;
+     height: auto;
+}
+
 
 /* Individual Product Photo Section - Right */
-.ind-product-overview .description-photos {
-    background-color: #ffffff;
-    padding: 30px 0 30px 10px;
+.description-photos {
+    text-align: center;
 }
 
-.ind-product-overview .thumbnails {
+.thumbnails {
     color: #723B04;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.thumb-ind{
+    width: 15%;
+    height: 15%;
+    text-align: center;
 }
 
 /* Customer Reviews */
 .customer-reviews {
     position: relative;
     width: 100%;
-    min-height: 400px;
-    padding: 0 10px 0 50px;
+    min-height: auto;
+    padding: 0 5% 5% 5%;
     color: #ffffff;
     border-top: 0.5px solid #1D5E98;
+    overflow: auto;
 }
 
-.customer-reviews .section-title {
+.section-title {
     position: relative;
     text-align: left;
     color: #1D5E98;
@@ -112,10 +213,15 @@ ul.bullets {
     font-weight: 200;
 }
 
-.customer-reviews .review-title {
+.review-title {
     color: #333333;
     font-size: 1.5rem;
     font-weight: 300;
+    margin: 0;
+}
+
+.stars{
+    padding-left: 0;
 }
 
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
@@ -127,8 +233,9 @@ h1 { font-size: 1.5em; margin: 10px; }
 /****** Style Star Rating Widget *****/
 
 .rating { 
-  border: none;
-  float: left;
+    border: none;
+    float: left;
+    margin: 0;
 }
 
 .rating > input { display: none; } 
@@ -169,7 +276,7 @@ h1 { font-size: 1.5em; margin: 10px; }
     border-radius: 10px;
 	color: #ffffff;
 	font-weight: 200;
-    font-size: 0.75rem;
+    font-size: 1rem;
 	text-decoration: none;
 	padding:5px 20px;
 	background: #2ECC71;

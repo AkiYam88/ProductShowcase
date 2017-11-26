@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
+<head>
         <title>K-9 Cooler: Good Doot Print</title>
         <!--Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,26 +10,28 @@
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/products.css">
-        <link rel="stylesheet" href="css/ind-product.css">      
+        <link rel="stylesheet" href="css/ind-product.css">        
         <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="slick.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="slick-theme.css" media="screen" />
     </head>
     
-    <body>
+<body class="body-mg">
         
 <!-- Navigation Bar -->
-        <nav class="navbar">
+    <nav class="navbar">
             <a href="index.html">
                 <img src="images/K9C_Logo.png" alt="K-9 Cooler logo" class="logo">
             </a>
             <div class="links-container column">
                 <ul>
-                    <a href="index.html"><li>HOME</li></a>
-                    <a href="products.html"><li>PRODUCTS</li></a>
-                    <a href="#.html"><li>HOW IT WORKS</li></a>
-                    <a href="#.html"><li>ABOUT </li></a>
-                    <a href="#.html"><li>INSTAGRAM</li></a>
-                    <a href="#.html"><li>SIGN IN</li></a>
-                    <a href="#.html"><li>SIGN UP</li></a>  
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="#.html">HOW IT WORKS</a></li>
+                    <li><a href="#.html">ABOUT</a></li>
+                    <li><a href="#.html">INSTAGRAM</a></li>
+                    <li><a href="#.html">SIGN IN</a></li>
+                    <li><a href="#.html">SIGN UP</a></li>
                     <li>
                         <form>
                             <input type="text" placeholder="Search..." required>
@@ -39,55 +41,95 @@
             </div>
             </nav>
         
-<!-- Product Detail Section -->
-        <section class="ind-product-overview">
-            <ul class="breadcrumbs column full">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li>"Good Dog!" Print</li>
+<!-- Breadcrumbs -->
+<section class="ind-product-overview">
+    <ul class="breadcrumbs column full">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li>"Good Dog!" Print</li>
+    </ul>
+</section>
+
+<!-- Product Details Text Left -->
+<section class="product-details column half">   
+    <!-- Title and Description -->
+    <div class="description-text">
+            <h3 class="section-title">"Good Dog!" Print</h3>
+                
+            <p>Is your dog fair-haired one who is quick to follow your command? Would you prefer more subtle tones than a vivid color palette? Then a brown bandana filled with "good dog!" bones is the right choice for you. It suits your dog's smart and energetic personality while as his human, you can keep it in align with your style. </p>
+                
+            <p class="details-title">Details & Care</p>
+            <ul class="bullets details-contents">
+                <li>100% cotton</li>
+                <li>Machine washable</li>
+                <li>Do not use bleach</li>
             </ul>
-            
-            <div class="description-text column half">
-                <p class="product-name">"Good Dob!" Print</p>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                
-                <p class="details-title">Details & Care</p>
-                <ul class="bullets details-contents">
-                    <li>description #1</li>
-                    <li>description #2</li>
-                    <li>description #3</li>
-                </ul>
-                <a href="#.html"><p class="underline">Size Chart</p></a>
-                
-                <a href="#.html" class="btn-cart">Add to Cart</a>
-            </div> 
+    </div>
+    <!-- Size counter and chart -->   
+    <div class="left-align column full">
   
-            <div class="description-photos column half">
-                <img src="images/K9C-Prod-Lrg.jpg" alt="Good Dog! Print" style="width:90%;height:90%;">
+            <div class="column two-thirds left-align">
+                <p>
+                <label for="exampleRecipientInput" class="std-txt">Size</label>
+                <select class="u-full-width" id="exampleQuantityInput">
+                <option value="Option 1">Select</option>
+                <option value="Option 2">XS (Neck fit: 9" to 13")</option>
+                <option value="Option 3">S (Neck fit: 10" to 14"</option>
+                <option value="Option 4">M (Neck fit: 14" to 18")</option>
+                <option value="Option 5">L (Neck fit: 17" to 21")</option>
+                <option value="Option 6">XL (Neck fit: 20" to 25")</option>
+                </select>
+                    </p>
+            </div>
+            <a href="#.html" class="column third">
+                <p class="underline">Size Chart</p>
+            </a>
+        </div>
+    <!-- Quantity counter -->     
+    <div class="left-align column full">
+        <div class="qty-field">
+                <label for="exampleRecipientInput" class="std-txt">Quantity</label>
+                <select class="u-full-width" id="exampleQuantityInput">
+                <option value="Option 1">1</option>
+                <option value="Option 2">2</option>
+                <option value="Option 3">3</option>
+                <option value="Option 4">4</option>
+                <option value="Option 5">5</option>
+                <option value="Option 6">6</option>
+                <option value="Option 7">7</option>
+                <option value="Option 8">8</option>
+                <option value="Option 9">9</option>
+                <option value="Option 10">10</option>
+                </select>
+            </div>
+    </div>
+    <!-- Add to Cart Button -->     
+    <div class="review-button left-align column full">
+        <a href="#.html" class="btn-review">Add to Cart</a>
+    </div>
+
+</section>
+    
+<!-- Product Details Pictures Right -->
+    
+<section class="column half">    
+    <div class="description-photos">
+        <img src="images/K9C-Prod-Lrg1.jpg" alt="Good Dog! Print">
+    </div>
                 
-                <div class="thumbnails">
-                    <h1>
-                        <i class="fa fa-angle-left"></i>
-                        <img src="images/K9C-Thumb-1.jpg" alt="thumbnail 1">
-                        <img src="images/K9C-Thumb-2.jpg" alt="thumbnail 2">
-                        <img src="images/K9C-Thumb-3.jpg" alt="thumbnail 3">
-                        <img src="images/K9C-Thumb-4.jpg" alt="thumbnail 4">
-                        <i class="fa fa-angle-right"></i>
-                    </h1>
-                </div>   
-            </div>            
-        </section>
+    <div class="thumbnails">
+            <img src="images/K9C-Thumb-1.jpg" alt="thumbnail 1" class="thumb-ind">
+            <img src="images/K9C-Thumb-2.jpg" alt="thumbnail 2" class="thumb-ind">
+            <img src="images/K9C-Thumb-3.jpg" alt="thumbnail 3" class="thumb-ind">
+            <img src="images/K9C-Thumb-4.jpg" alt="thumbnail 4" class="thumb-ind">
+        </div>        
+</section>
                         
 <!-- Customer Reviews Section -->
-        <section class="customer-reviews">
-            <h3 class="section-title">Customer Reviews</h3>
+<section class="customer-reviews">
+        <h3 class="section-title">Customer Reviews</h3>
             
-        <div class="column third">
-            <p class="review-title">It Works!</p>
-        </div>
-            
-        <div class="two-thirds">
+        <div class="column fourth stars">
             <fieldset class="rating">
             <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
                 
@@ -111,11 +153,15 @@
             </fieldset>
             
         </div>
+    
+        <div class="column fourth">
+            <p class="review-title">It Works!</p>
+        </div>
             
-        <div class="column full">
+        <div class="review column full">
              
-            <p>By Abc</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>           
+            <p>By Lisa</p>
+            <p>My dog and the heat REALLY don't agree with each other and walking him on a hot day has always been a challenge. I was a skeptic when my friend told me about K-9 Cooler, but I decided to give it a try anyway. The worst case scenario was that it didn't work but my dog would still get a nice bandana. Lo and behold it did work! He was visibly more excited to go for a walk despite the high temperature and no longer panting as much. Thank you! </p>           
         </div>   
         
         <div class="review-button column full">
@@ -128,29 +174,35 @@
         </section>
         
 <!-- Footer Section -->
-        <footer class="footer-content-2">
+<footer class="footer-content">
+    <div class="footer-column column third">
+        <h4 class="title-text">About us</h4>
+        <p class="p-white">K-9 Cooleris a company consists of a team of dog lovers... <br>Read More ></p>
+    </div>
             
-            <div class="footer-column column third">
-                <p class="copyright-line">&copy; 2017 <strong>K-9 Cooler.</strong> - All Rights Reserved.</p>
-            </div>
+    <div class="footer-column column third">
+        <h4 class="title-text">Contact us</h4>
+        <p class="p-white">Drop us a line anytime about your review, looking good story... <br>Contact >
+        </p>
+    </div>
             
-            <div class="footer-column column sixth">
-                <h4 class="title-text">About us</h4>
-            </div>
+    <div class="footer-column column third">
+        <h4 class="title-text">Connect with us</h4>
+        <a href="#.html"><i class="fa fa-facebook-square">&nbsp;</i></a>
+        <a href="#.html"><i class="fa fa-twitter-square">&nbsp;</i></a>
+        <a href="#.html"><i class="fa fa-instagram"></i></a>
+    </div>
             
-            <div class="footer-column column sixth">
-                <h4 class="title-text">Contact us</h4>
-            </div>
-            
-            <div class="footer-column column third">
-                <a href="#.html"><i class="fa fa-facebook-square"></i></a>
-                <a href="#.html"><i class="fa fa-twitter-square"></i></a>
-                <a href="#.html"><i class="fa fa-instagram"></i></a>
-            </div>
-            
+    <div class="footer-column column full">
+        <p class="copyright-line">&copy; 2017 <strong>K-9 Cooler.</strong> - All Rights Reserved.</p>
+    </div>
 
+</footer>
 
-        </footer>
-        
-    </body>
+<!--script-->    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/myslider.js"></script>
+
+</body>
 </html>
